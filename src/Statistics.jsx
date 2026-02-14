@@ -26,7 +26,7 @@ export class Statistics extends Component {
         return (
             <div className="reviews">
                 <h2>Please leave feedback</h2>
-                <button onClick={this.addGood}>Good</button>
+                <button onClick={this.addGood}>Good </button>
                 <button onClick={this.addNeutral}>Neutral</button>
                 <button onClick={this.addBad}>Bad</button>
 

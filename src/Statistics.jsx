@@ -32,7 +32,7 @@ export class Statistics extends Component {
 
                 <h2>Statistics</h2>
                 {total === 0 ? (
-                    <Notification message="There is no feedback" />
+                    <Notification message=" There is no feedback " />
                 ) : (
                     <>
                         <p>Good: <span>{this.state.good}</span></p>
